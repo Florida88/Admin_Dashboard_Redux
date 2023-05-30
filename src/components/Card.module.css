@@ -1,0 +1,83 @@
+.wrapper{
+    border-radius: 20px;
+    border: 1px solid grey;
+    min-width: 550px;
+    height: 300px;
+    margin: 10px;
+    background-color: rgba(193, 193, 193, 0.7);
+    padding: 20px;
+}
+.wrapper p{
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+.wrapper p span{
+    font-weight: normal;
+    font-size: 15px;
+}
+.wrapper2{
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 10px;
+    background-color: chartreuse;
+    padding: 20px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(31, 95, 223);
+    color: white;
+    padding: 10px;
+}
+.btnCancel{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(223, 31, 31);
+    color: white;
+    padding: 10px;
+}
+.btnExit{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(223, 31, 31);
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.input{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 99%;
+    font-size: 16px;
+}
+.input:focus{
+    outline: none;
+    box-shadow: 0 10px 10px blue;
+}
+.modal{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.modalContent{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.none{
+    display: none;
+}
